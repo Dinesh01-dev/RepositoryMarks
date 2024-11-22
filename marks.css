@@ -1,0 +1,14 @@
+table{
+  background:maroon;
+  color:yellow;
+  width:350px;
+caption{
+ color:red;
+ background:yellow;
+}
+output{
+color:hotpink;
+}
+button{
+   background:linear-gradient(to right,red,blue)
+}

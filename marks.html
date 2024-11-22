@@ -1,0 +1,62 @@
+<!------example on Marks and result------>
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+  <title>Marks memo</title>
+  <link rel="stylesheet" href="marks.css">
+</head>
+   <body>
+ 
+   
+      <table align="center">
+      <caption>Marks report</caption>
+      <tbody>
+        <tr>
+         <td><label for="RollNo">RollNo</label></td> 
+		 <td><input type="text" id="num" autofocus required></td>
+		 </tr>
+		  <tr>
+		  <td><label for="name">Name</label></td>
+		  <td><input for="text" id="name" autofocus required></td>
+		  </tr>
+		   <tr>
+		    <th colspan="2">Marks</th>
+			</tr>
+			 <tr>
+         <td><label for="html">HTML</label></td> 
+		 <td><input type="text" id="html" autofocus required ></td>
+		 </tr>
+		  <tr>
+         <td><label for="css">CSS</label></td> 
+		 <td><input type="text" id="css" autofocus required ></td>
+		 </tr>
+		  <tr>
+         <td><label for="js">JavaScript</label></td> 
+		 <td><input type="text" id="js" autofocus required ></td>
+		 </tr>
+		  <tr>
+         <td><label for="bs">BootStrap</label></td> 
+		 <td><input type="text" id="bs" ></td>
+		 </tr>
+		 </tbody>
+		
+		<tr>
+		 <th colspan="2"><button onclick="getResult()"> Result</button><br></th>
+		</tr>
+		<tr>
+		<th colspan="2"><output id="total"></output><br></th>
+		</tr>
+		<tr>
+		<th colspan="2"><output id="Average"></output><br></th>
+		</tr>
+		<tr>
+		<th colspan="2"><output id="grade"></output><br></th>
+		</tr>
+		
+		 </table>
+		
+		 
+		 <script src="marks.js"></script>
+		
+   </body>
+</html>  
